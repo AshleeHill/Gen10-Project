@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lucky Sevens Game</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./game.css">
+        <script src="./game.js"></script>
+    </head>
+
+<body class="center">
+    <h1 class="textCenter">Lucky Sevens</h1>
+    <form>
+        <label id="startingBetLabel" class="textCenter">Starting Bet:</label>
+        <input id="startingBet" type="text" name="startingBet" value="$0.00"> </form><br>
+        <button id="playButton" type="submit" onmousedown="gameStart()">Play</button>
+    </form>
+
+    <div class="resultsTable">
+        <hr>
+        <h1 class="textCenter">Results</h1>
+        <table class="table">
+            <tr>
+            <td class="row1">Starting Bet</td>
+            <td class="row1" id="startingBetResult">$999999999999999</td>
+            </tr>
+            <tr>
+                <td>Total Rolls Before Going Broke</td>
+                <td id="rollsBeforeGoingBrokeResult">999</td>
+            </tr>
+            <tr>
+                <td>Highest Amount Won</td>
+                <td id="highestAmountWonResult">$999999999999999</td>
+            </tr>
+            <tr>
+                <td>Roll Count at Highest Amount Won</td>
+                <td id="rollCountAtHighestAmountWonResult">999</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

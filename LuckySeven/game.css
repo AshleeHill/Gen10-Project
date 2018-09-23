@@ -1,0 +1,52 @@
+body {
+  font-weight: bold;
+}
+
+.resultsTable
+{
+    visibility: hidden;
+}
+
+.center
+{
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+}
+.textCenter
+{
+    text-align: center;
+}
+#playButton
+{
+    display: block;
+    margin: 0 auto;
+}
+table
+{
+    align-self: center;
+    min-width: 375px;
+    border-collapse: collapse;
+}
+
+.row1 {
+  background-color: Grey;
+}
+
+.resultsTable tr:nth-child(even){
+  background-color: LightGrey;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+#startingBetLabel
+{
+    padding:  20px;
+}
+#startingBet
+{
+    min-width: 10px;
+    width: fit-content;
+    text-align: center;
+}

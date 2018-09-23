@@ -1,0 +1,122 @@
+header, footer {
+  text-align: center;
+}
+
+.nameOfRestaurant {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.javaScript {
+  text-align: center;
+  background-color: lemonChiffon;
+  color: black;
+  font-size: large;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  padding: 20px;
+  font-weight: lighter;
+}
+
+.newLocation, .opening {
+  font-size: large;
+}
+
+.promotion{
+  font-size: small;
+}
+
+nav .btn {
+  background-color: RosyBrown;
+  color: Black;
+}
+
+nav btn:visited {
+  color: SandyBrown;
+}
+
+nav btn:hover {
+  font-weight: bold;
+}
+
+nav btn:active {
+  text-decoration: none;
+}
+
+.homeInfo {
+  background-color: MistyRose;
+  padding: 35px;
+}
+
+.col-sm-12 {
+  margin: 15px;
+}
+
+.carouselSlide {
+  margin: 35px;
+  text-align: center;
+}
+
+.carousel-indicators {
+  margin: 60px;
+}
+
+h3 {
+  font-size: large;
+}
+
+.food {
+  background-color: MistyRose;
+}
+
+th {
+  font-size: large;
+  padding-top: 25px;
+}
+
+.prices {
+  font-weight: bold;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+.nameOfMeals {
+  text-align: center
+}
+
+.tableName {
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+}
+
+.beveragesTable{
+  margin: 55px;
+  margin-left: 55;
+
+}
+
+.drinksAndPrices tr:nth-child(even){
+  background-color: SeaShell;
+}
+
+form {
+  font-weight: bold;
+  text-align: center;
+}
+
+.invalid {
+  color: red;
+}
+
+.valid {
+  color: green;
+}
+
+.hidden {
+  visibility: hidden;
+}

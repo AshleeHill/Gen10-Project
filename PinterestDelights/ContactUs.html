@@ -1,0 +1,97 @@
+<!Doctype html
+<html lan="en">
+<!--
+Name: Ashlee Hill
+Date Created: September 16th
+Most Recent Revision: September 19th
+-->
+<html>
+
+<!-- What Shows up in the tab of the website-->
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="PintrestDelights.js"></script>
+    <link rel="stylesheet" href="RestaurantStyles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+    </style>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+<!-- Restuarant Name centered-->
+  <header>
+    <h1 class="nameOfRestaurant">Pinterest Delights</h1>
+  <hr />
+  </header>
+
+<!--- Navigation Part of the Website-->
+  <nav>
+      <p><a class="btn badge-pill" href="Home.html"> <i class="fa fa-home"> </i> Home<a/>
+          <a class="btn badge-pill" href="Menu.html">Menu<a/>
+          <a class="btn badge-pill" href="ContactUs.html">Contact Us<a/>
+          <hr />
+      </p>
+  </nav>
+
+<!-- Contruction of the form-->
+<body>
+<form>
+  Name: <input type="text" name="Name" required/>
+  <br />
+  <label  id="nameContant" class="hidden invalid">Input Is Invalid</label>
+  <br />
+  Email: <input type="text" name="Email" required/>
+  <br />
+  <label id="emailContact" class="hidden">Input Is Invalid</label>
+  <br />
+  Phone: <input type="text" name="PhoneNumber" required/>
+  <br />
+  <label id="phoneNumberContact" class="hidden">Input Is Invalid</label>
+  <br />
+  Reason for Inquiry:
+      <select>
+        <option value="Catering"> Catering </option>
+        <option value="Private Party"> Private Party </option>
+        <option value="Feedback"> Feedback </option>
+        <option value="Other"> Other </option>
+      </select>
+      <br />
+      <br />
+  Additional Information: <textarea name="briefdescription"> </textarea> <br /> <br />
+  Have you been to the restaurant?:
+        <input type="radio" name="answer" value="NO" checked /> No
+        <input type="radio" name="answer" value="YES" /> Yes
+      <br />
+      <br />
+  Best days to contact you:
+        <input type="checkbox" name=myChoices value="M" /> M
+        <input type="checkbox" name=myChoices value="T" /> T
+        <input type="checkbox" name=myChoices value="W" /> W
+        <input type="checkbox" name=myChoices value="Th" /> Th
+        <input type="checkbox" name=myChoices value="F" /> F
+
+      <br />
+      <br />
+        <input type="submit" value="Send Request"/>
+
+</form>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+<!-- Address and Phone number of Restuarant-->
+  <hr />
+  <footer>
+    <p>
+    504 S Boulevard, Charlotte, NC, 27643
+    <br />
+    (919)760-0991
+    </p>
+  </footer>
+
+  </html>
